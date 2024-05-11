@@ -2,13 +2,16 @@ body{
     background-color: rgb(254, 213, 248);
     padding: 30px;
 }
-
+.class-container{
+    display: flex;
+    justify-content: space-between;
+}
 .card{
     width: 220px;
-    height: 400px;
+    height: 390px;
     border:1px solid rgb(85, 14, 183);
     background-color: beige;
-    box-shadow:0 0 5px 4px rgb(180, 178, 170);
+    box-shadow:0 0 7px 4px rgb(151, 150, 144);
     border-radius: 15px;
 }
 .image{
@@ -18,6 +21,16 @@ body{
 }
 .price{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: darkolivegreen;
-    padding-left: 50px;
+    color: rgb(74, 93, 41);
+    padding-left: 54px;
+}
+.footer{
+background-color: rgb(33, 84, 84);
+font-size: 30px;
+text-align: center ;
+color:rgb(211, 168, 11);
+position:relative;
+height: 52px;
+border-radius: 0 0 18px 18px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
