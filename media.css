@@ -4,7 +4,7 @@ body{
 }
 .class-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .card{
     width: 220px;
@@ -22,7 +22,7 @@ body{
 .price{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(74, 93, 41);
-    padding-left: 54px;
+    padding-left: 57px;
 }
 .footer{
 background-color: rgb(33, 84, 84);
