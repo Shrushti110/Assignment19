@@ -4,10 +4,20 @@ body{
 }
 
 .card{
-    width: 330px;
-    height: 200px;
-    border:1px solid rgb(219, 149, 198);
+    width: 220px;
+    height: 400px;
+    border:1px solid rgb(85, 14, 183);
     background-color: beige;
-    box-shadow:0 0 8px 2px rgb(255, 218, 6);
-    border-radius: 20px;
+    box-shadow:0 0 5px 4px rgb(180, 178, 170);
+    border-radius: 15px;
+}
+.image{
+    height: 100px;
+    width: 120px;
+    padding: 10px 50px 0 ;
+}
+.price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkolivegreen;
+    padding-left: 50px;
 }
