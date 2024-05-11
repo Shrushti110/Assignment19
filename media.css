@@ -5,6 +5,7 @@ body{
 .class-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .card{
     width: 220px;
@@ -13,6 +14,7 @@ body{
     background-color: beige;
     box-shadow:0 0 7px 4px rgb(151, 150, 144);
     border-radius: 15px;
+    margin-top: 20px;
 }
 .image{
     height: 100px;

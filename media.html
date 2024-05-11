@@ -4,6 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Design</title>
+    <style>
+        /*small Devices*/
+        @media screen and (max-width:600px) {}
+            
+        /*Normal Devices*/
+        @media screen and (min-width: 600px) and (max-width: 750px){
+            .card{
+                width: 100px;
+                margin-left: 100px;
+                margin-top: 50px;
+            }
+        }
+            
+        /*Tablets Devices*/
+        @media screen and (min-width:769px) and (max-width:990px){
+            .card-container{
+                justify-content: start;
+            }
+            .card{
+                margin-left: 100px;
+                margin-top: 70px;
+            }
+        }
+            
+        /*Large Devies*/
+         @media screen and (min-width=990px)and(max-width: 200px){
+        .card-container{
+            justify-content: start;
+        }
+        .card{
+            margin-left:100px ;
+            width: 350px;
+        }
+        }
+
+        
+    </style>
     <link rel="stylesheet" href="media.css">
 </head>
 <body>
